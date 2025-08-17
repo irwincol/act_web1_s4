@@ -9,4 +9,4 @@ const retrasarMensaje = function(mensaje, tiempo) {
     }, tiempo);
 };
 
-retrasarMensaje("Hola", 2000); // Imprime "Hola" tras 2 segundos
+retrasarMensaje("Hola", 2000); 

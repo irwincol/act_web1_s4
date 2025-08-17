@@ -9,6 +9,6 @@ function multiplicarArreglo(arreglo) {
     return arreglo.reduce((acum, num) => acum * num, 1);
 }
 
-console.log(multiplicarArreglo([2, 3, 4]));
-console.log(multiplicarArreglo([12, 3]));  
+console.log(multiplicarArreglo([2, 1, 4]));
+console.log(multiplicarArreglo([1, 3]));  
 

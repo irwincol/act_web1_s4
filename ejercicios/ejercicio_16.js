@@ -5,5 +5,5 @@
 
 const sumar = (...numeros) => numeros.reduce((acum, num) => acum + num, 0);
 
-console.log(sumar(1, 2, 3, 4)); // 10
-console.log(sumar(5, 10)); // 15
+console.log(sumar(1, 2, 3, 4)); 
+console.log(sumar(5, 10)); 

@@ -11,5 +11,5 @@ const generarId = (function() {
     }
 })();
 
-console.log(generarId()); // 1
-console.log(generarId()); // 2
+console.log(generarId()); 
+console.log(generarId()); 

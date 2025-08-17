@@ -4,7 +4,7 @@
 // Ejemplo: esPar(4) → true
 
     function esPar (numero){
-        return numero % 2 === 0;
+        return numero % 2 === 0 ? "el numero es par" : " el numero es impar";
     }
     console.log(esPar(1));
     console.log(esPar(10));

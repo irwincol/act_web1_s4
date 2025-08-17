@@ -3,6 +3,6 @@
 // Tipo de función: IIFE
 // Ejemplo: Imprime automáticamente al ejecutarse.
 
-(function() {
+(function(){
     console.log("¡Bienvenido!");
 })();

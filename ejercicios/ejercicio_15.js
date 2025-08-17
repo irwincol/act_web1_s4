@@ -8,5 +8,5 @@ function invertir(cadena) {
     return invertir(cadena.slice(1)) + cadena[0];
 }
 
-console.log(invertir("hola")); // aloh
-console.log(invertir("cesde")); // edsec
+console.log(invertir("hola")); 
+console.log(invertir("samira")); 

@@ -8,6 +8,6 @@
 function reemplazarEspacios(cadena) {
     return cadena.replace(/ /g, "-");
 }
-console.log(reemplazarEspacios("hola mundo")); // hola-mundo
+console.log(reemplazarEspacios("hola a todos"));
 
 
