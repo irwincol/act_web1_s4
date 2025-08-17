@@ -5,9 +5,8 @@
 // Tipo de función: Expresión de función
 // Ejemplo: saludar() → ¡Hola, Invitado!
 
-const saludar = function(nombre = "Invitado") {
-    return `¡Hola, ${nombre}!`;
-};
+let saludar = (nombre="invitado") => `hola ${nombre}`;
 
-console.log(saludar("Irwin"));
-console.log(saludar()); 
+console.log(saludar());
+console.log(saludar("irwin"));
+

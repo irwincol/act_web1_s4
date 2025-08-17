@@ -3,25 +3,14 @@
 // Tipo de función: Función recursiva
 // Ejemplo: contarVocales("hola") 
 
-
-
 function contarVocales(cadena) {
- 
     if (cadena.length === 0) {
         return 0;
     }
-
-    // Tomamos el primer carácter y lo pasamos a minúscula
     let letra = cadena[0].toLowerCase();
-
-    // Comprobamos si es vocal
     let esVocal = "aeiou".includes(letra) ? 1 : 0;
-
-    // Llamada recursiva para el resto de la cadena
-    return esVocal + contarVocales(cadena.slice(1))
+    return esVocal + contarVocales(cadena.slice(1));
 }
 
-// Ejemplo de uso
-console.log(contarVocales("hola"));        
-console.log(contarVocales("said"));  
-console.log(contarVocales(""))    
+console.log(contarVocales("said"));        // 2
+console.log(contarVocales("ola"));            // 0

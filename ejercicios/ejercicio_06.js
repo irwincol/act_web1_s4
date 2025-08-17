@@ -8,6 +8,6 @@ function filtrarMayores(arreglo) {
     return arreglo.filter(num => num > 10);
 }
 
-// Ejemplo de uso
-console.log(filtrarMayores([5, 12, 8, 15])); // [12, 15]
-console.log(filtrarMayores([3, 7, 20, 11])); // [20, 11]
+
+console.log(filtrarMayores([3, 7, 20, 11]))// [20, 11]
+

@@ -5,17 +5,17 @@
 
 
 // 3. Sumar elementos de un arreglo
-const sumarArreglo = (arreglo) => {
+
+let sumarArreglo = (arreglo) => {
     let suma = 0;
-    let i = 0;
-
-    while (i < arreglo.length) {
+    for (let i = 0; i < arreglo.length; i++){
         suma += arreglo[i];
-        i++;
     }
-
     return suma;
-};
+}
 
-console.log(sumarArreglo([1, 4, 3])); 
+// Prueba de la función
+console.log(sumarArreglo([1, 4, 3]));
+
+
 

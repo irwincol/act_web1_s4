@@ -3,12 +3,35 @@
 // Tipo de función: Declaración de función
 // Ejemplo: cuadrado(4) → 16
 
-
-// 1. Calcular el cuadrado de un número
-function cuadrado(numero) {
-    return numero * numero;
+function cuadrado (numero){
+    return numero*numero;
 }
+console.log(cuadrado(3));
 
-// Ejemplo de uso
-console.log(cuadrado(4)); // 16
-console.log(cuadrado(7)); // 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
