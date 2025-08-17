@@ -1,11 +1,8 @@
-//  Filtrar números mayores a 10
-// Tarea: Crea una función que reciba un arreglo y devuelva solo los números mayores a 10.
-// Tipo de función: Función de orden superior
-// Ejemplo: filtrarMayores([5, 12, 8, 15]) → [12, 15]
+// 7. Convertir a mayúsculas
+// Tarea: Crea una función que convierta una cadena a mayúsculas.
+// Tipo de función: Función flecha
+// Ejemplo: aMayusculas("javascript") → JAVASCRIPT
 
 
-
-unciones de orden superior
-Una función de orden superior es aquella que recibe o devuelve otra función.
-const filtrarPares = (arr) => arr.filter(num => num % 2 === 0);
-console.log(filtrarPares([1, 2, 3, 4, 5, 6])); // [2, 4, 6]
+let convertirMinusculas = (cadena) => cadena.toUpperCase();
+console.log(convertirMinusculas ("irwin"));

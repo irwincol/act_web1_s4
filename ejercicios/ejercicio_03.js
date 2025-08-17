@@ -14,7 +14,7 @@ let sumarArreglo = (arreglo) => {
     return suma;
 }
 
-// Prueba de la función
+
 console.log(sumarArreglo([1, 4, 3]));
 
 
